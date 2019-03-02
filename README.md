@@ -4,7 +4,7 @@ In your `requirements.txt` file, add the line `git+https://github.com/jtarchie/m
 
 Then run `pip install -r requirements.txt`.
 
-In your `mkdocs.yml` file, change the `theme` key to be `theme: pivotal`.
+In your `mkdocs.yml` file, change the `theme` key to be `theme: pivotal`. You may have to install material theme as well, which can be done by `pip install mkdocs-material`.
 
 Use `mkdocs serve` to preview changes.
 
